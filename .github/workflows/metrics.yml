@@ -49,18 +49,15 @@ jobs:
           plugin_lines: yes
           plugin_lines_history_limit: 1
 
-          # coding habits
-          plugin_habits: yes
-          plugin_habits_from: 200
-          plugin_habits_days: 14
-          plugin_habits_facts: yes
-          plugin_habits_charts: yes
-
-          # achievements (the fun part)
-          plugin_achievements: yes
-          plugin_achievements_secrets: yes
-          plugin_achievements_threshold: C
-          plugin_achievements_display: detailed
+          # NOTE: plugin_habits and plugin_achievements are disabled on purpose.
+          # Both crash inside lowlighter/metrics (@latest):
+          #   habits       -> TypeError at source/plugins/habits/index.mjs:51, because GitHub's
+          #                   events API returns PushEvents without payload.commits
+          #                   (payload only has repository_id, push_id, ref, head, before)
+          #   achievements -> GraphqlResponseError, the plugin still queries the retired
+          #                   "Projects (classic)" field
+          # metrics renders "Unexpected error" into the card instead of failing the run, so
+          # the run stays green either way. Re-enable once upstream fixes them.
 
           # stargazers on the most popular projects
           plugin_stargazers: yes
