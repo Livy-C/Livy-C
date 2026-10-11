@@ -15,7 +15,6 @@
 <div align="center">
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=15&duration=3000&pause=1000&width=435&lines=I+just+a+simple+developer.;But+I+can+try+my+best+to+achieve+my+goals.;Just+trying+make+myself+better.)](https://git.io/typing-svg)
-
 *I write code for liminal spaces, kernels, and things that probably shouldn't compile.*
 
 </div>
@@ -33,7 +32,7 @@
 
 <div align="center">
 
-<img src="./github-metrics.svg" alt="Livy's GitHub metrics" width="100%" />
+<img src="./github-metrics.svg" alt="Livy's GitHub metrics" />
 
 </div>
 
