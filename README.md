@@ -2,14 +2,21 @@
 
 # ✧ Livy ✧
 **Yare yare — presenting the world's cutest Livy-sama! ˶ᵔ ᵕ ᵔ˶**
+
+</div>
+
 ## 📌  About Me
+
 - 🔭 Currently focusing on: Just practicing CSP-S.
 - 🌱 Learning: C++/C, CSS, JavaScript
 - ⚡ Interests: Minecraft and Backrooms!
 - ❤️ Favorite: Write random Minecraft mods or write simple backrooms levels=)
 
+<div align="center">
+
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=15&duration=3000&pause=1000&width=435&lines=I+just+a+simple+developer.;But+I+can+try+my+best+to+achieve+my+goals.;Just+trying+make+myself+better.)](https://git.io/typing-svg)
 *I write code for liminal spaces, kernels, and things that probably shouldn't compile.*
+
 </div>
 
 ---
