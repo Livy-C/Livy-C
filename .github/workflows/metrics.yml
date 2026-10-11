@@ -27,9 +27,15 @@ jobs:
           committer_message: "chore: update github-metrics.svg [skip ci]"
 
           # layout
+          # NOT "columns": the columns layout reflows to a single column through an
+          # internal "@media (max-width:850px)" rule, but the root <svg> height is a
+          # fixed value computed for the two-column layout. As soon as the README
+          # container is narrower than 850px (GitHub profile column is ~viewport-340,
+          # capped near 893px), the reflowed content grows past that fixed height and
+          # the bottom of the card is clipped. Single-column has no such reflow.
           template: classic
           config_timezone: Asia/Shanghai
-          config_display: columns
+          config_display: row
           config_padding: 0, 8 + 11%
 
           # base blocks (header omitted on purpose: the README has its own banner)
