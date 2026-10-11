@@ -42,7 +42,7 @@
 
 *"I didn't choose the liminal life — the liminal life chose me."*
 
-**Thanks for stopping by. Take a yellow room home with you. **
+**Thanks for stopping by. Take a yellow room home with you.**
 
 <sub>Made by **Fluorine Livy** in midnight.</sub>
 
